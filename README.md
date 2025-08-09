@@ -4,6 +4,8 @@ This project trains a binary image classifier to distinguish between cats and do
 
 ## Dataset
 The dataset should be organized as follows:
+
+```bash
 dataset/
  │
  ├── train/
@@ -13,12 +15,12 @@ dataset/
  ├── val/
  │ ├── cats/
  │ └── dogs/
- │
- └── test/
+
+test/
  ├── 1.jpg
  ├── 2.jpg
  └── ...
-
+```
 
  - `train/` : Training images separated into class folders.
  - `val/` : Validation images separated into class folders.

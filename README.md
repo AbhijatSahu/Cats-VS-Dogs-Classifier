@@ -50,9 +50,9 @@ Training Process
 
    Result:
 
-     Train Accuracy: 93.77%
+    - Train Accuracy: 93.77%
 
-     Validation Accuracy: 92.86%
+    - Validation Accuracy: 92.86%
 
  - Phase 2: Fine-Tuning (Last 4 Convolutional Layers Unfrozen)
 
@@ -62,9 +62,9 @@ Training Process
 
    Result:
 
-     Train Accuracy: 99.32%
+    - Train Accuracy: 99.32%
 
-     Validation Accuracy: 96.14%
+    - Validation Accuracy: 96.14%
 
 ## After training, the model is saved as:
 model.save('model.h5')

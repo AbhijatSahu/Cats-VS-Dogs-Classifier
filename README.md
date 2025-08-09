@@ -31,10 +31,12 @@ test/
 1. Clone the repository:
 ```bash
 git clone https://github.com/AbhijatSahu/Cats-VS-Dogs-Classifier.git
-
 ```
+
 2. Install the required dependencies:
-pip install -r requirements.txt
+```bash
+pip install -r Requirements.txt
+```
 
 ## Training
 Training Process

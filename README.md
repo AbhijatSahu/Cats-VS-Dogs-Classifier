@@ -5,19 +5,19 @@ This project trains a binary image classifier to distinguish between cats and do
 ## Dataset
 The dataset should be organized as follows:
 dataset/
-│
-├── train/
-│ ├── cats/
-│ └── dogs/
-│
-├── val/
-│ ├── cats/
-│ └── dogs/
-│
-└── test/
-├── 1.jpg
-├── 2.jpg
-└── ...
+ │
+ ├── train/
+ │ ├── cats/
+ │ └── dogs/
+ │
+ ├── val/
+ │ ├── cats/
+ │ └── dogs/
+ │
+ └── test/
+ ├── 1.jpg
+ ├── 2.jpg
+ └── ...
 
 
  - `train/` : Training images separated into class folders.

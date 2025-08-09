@@ -41,18 +41,29 @@ pip install -r Requirements.txt
 ## Training
 Training Process
  - Phase 1: Transfer Learning (VGG16 Frozen)
+
    Base model: VGG16 pretrained on ImageNet
+
    Additional Dense layers with Batch Normalization & Dropout
+
    Trained for 10 epochs
+
    Result:
+
      Train Accuracy: 93.77%
+
      Validation Accuracy: 92.86%
 
  - Phase 2: Fine-Tuning (Last 4 Convolutional Layers Unfrozen)
+
    Learning rate reduced to 1e-5
+
    Trained for 10 more epochs
+
    Result:
+
      Train Accuracy: 99.32%
+
      Validation Accuracy: 96.14%
 
 ## After training, the model is saved as:

@@ -67,7 +67,9 @@ Training Process
     - Validation Accuracy: 96.14%
 
 ## After training, the model is saved as:
+```bash
 model.save('model.h5')
+```
 
 ## Generating Predictions for Submission
 To create a submission file:

@@ -78,3 +78,8 @@ To create a submission file:
  - Predict probabilities
  - Save a CSV with columns:
    - id, label
+
+## model and dataset
+```bash
+https://drive.google.com/drive/folders/1tiLGCosrELzsTbpQIi2PQq-GIoTUuShm?usp=sharing
+```
